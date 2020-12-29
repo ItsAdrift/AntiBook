@@ -1,0 +1,11 @@
+# Autocheck will check all players main hand for a writable book every x seconds. This is to ensure they havent somehow glitched one of the 3 checks
+autocheck:
+  enabled: true
+  # Interval in seconds
+  interval: 2
+messages:
+  prefix: "&e&lAntiBook &7&l» &f"
+  noHold: "&cSorry! You can't use books just at the moment. They will be back soon.\nAsk a staff to put it away safely for you."
+  slotsFull: "&cYour hotbar is filled with books so this book has been dropped on the floor. Please leave space in your inventory and collect it."
+  noPickup: "&cThere is not sufficient space to safely collect this book."
+  inventory: "&cSorry! You can't use books just at the moment. They will be back soon.\nAsk a staff to put it away safely for you."
